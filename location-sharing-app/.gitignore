@@ -1,0 +1,19 @@
+# Build output
+/build
+/app/build
+.gradle
+
+# Android Studio / IntelliJ
+.idea
+*.iml
+local.properties
+.DS_Store
+
+# Your real Firebase config holds project identifiers — keep it out of version
+# control. Each person downloads their own copy from the Firebase console.
+/app/google-services.json
+
+# Signing keystores and their passwords must never be committed.
+*.jks
+*.keystore
+keystore.properties

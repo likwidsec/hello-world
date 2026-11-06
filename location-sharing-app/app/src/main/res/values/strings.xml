@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Us Location Share</string>
+
+    <!-- Pairing screen -->
+    <string name="pairing_instructions">To see each other on the map, both of you install this app and enter the SAME pair code below. Pick anything you both agree on — treat it like a shared password.</string>
+    <string name="your_name_label">Your name</string>
+    <string name="your_name_hint">e.g. Alex</string>
+    <string name="pair_code_label">Shared pair code</string>
+    <string name="pair_code_hint">e.g. our-secret-2026</string>
+    <string name="pair_code_explanation">Anyone who knows this code can see both locations, so keep it private and hard to guess.</string>
+    <string name="start_sharing_button">Start sharing</string>
+
+    <!-- Map screen -->
+    <string name="sharing_in_room">Room: %1$s</string>
+    <string name="recenter_button">Recenter</string>
+    <string name="show_trails">Show trails</string>
+    <string name="hide_trails">Hide trails</string>
+    <string name="stop_sharing_button">Stop sharing</string>
+
+    <!-- Foreground service notification -->
+    <string name="sharing_notification_channel_name">Location sharing</string>
+    <string name="sharing_notification_title">Sharing your location</string>
+    <string name="sharing_notification_text">Your partner can see where you are. Tap to open the map.</string>
+
+    <!-- Messages -->
+    <string name="name_and_code_required">Please enter both your name and a pair code.</string>
+    <string name="location_permission_required">Location permission is needed to share your location.</string>
+    <string name="sign_in_failed">Could not connect to the backend. Check your internet connection.</string>
+
+    <!-- Google Maps API key. Replace the placeholder with your real key (see README). -->
+    <string name="google_maps_api_key" translatable="false">PASTE_YOUR_GOOGLE_MAPS_API_KEY_HERE</string>
+</resources>

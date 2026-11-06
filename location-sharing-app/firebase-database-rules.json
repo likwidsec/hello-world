@@ -1,0 +1,20 @@
+{
+  "comment": "Paste these rules into Firebase console > Realtime Database > Rules. They require every reader and writer to be signed in, and they only let a person write to their OWN member and history node (the node whose key equals their Firebase user id), so one partner cannot overwrite the other's location.",
+  "rules": {
+    "pairs": {
+      "$pairCode": {
+        ".read": "auth != null",
+        "members": {
+          "$userId": {
+            ".write": "auth != null && auth.uid == $userId"
+          }
+        },
+        "history": {
+          "$userId": {
+            ".write": "auth != null && auth.uid == $userId"
+          }
+        }
+      }
+    }
+  }
+}

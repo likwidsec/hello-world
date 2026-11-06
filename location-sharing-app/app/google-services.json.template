@@ -1,0 +1,24 @@
+{
+  "__instructions__": "This is ONLY a placeholder showing the shape of the file. Do NOT edit this by hand. Instead, in the Firebase console add an Android app with package name com.example.locationsharing, download the real google-services.json it gives you, and save it as app/google-services.json (same folder as this template). The build will not succeed until that real file is present.",
+  "project_info": {
+    "project_number": "000000000000",
+    "project_id": "your-firebase-project-id",
+    "firebase_url": "https://your-firebase-project-id-default-rtdb.firebaseio.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:0000000000000000000000",
+        "android_client_info": {
+          "package_name": "com.example.locationsharing"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "REPLACE_WITH_REAL_FILE_FROM_FIREBASE"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}
